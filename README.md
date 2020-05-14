@@ -1,16 +1,15 @@
-# ewallet
+# eWallet App
 
-A new Flutter project.
+This is flutter app i made using the flutter framework.
 
-## Getting Started
+# How it works
 
-This project is a starting point for a Flutter application.
+The goal is to be able to buy and sell products online. All you need is a phone with a working camera to be able to scan barcodes.
 
-A few resources to get you started if this is your first Flutter project:
+## Steps
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. The buyer/seller should be connected to the app
+2. The buyer and the seller have access to their wallet as well as the history of their transactions
+3. If you decide to sell a product you'll have to set its price and name. After confirming, the product will be added to pending products. A barcode will be generated so you can share it.
+4. The buyer needs to scan the code then pay for it.
+5. The seller is notified that his pending product has been sold.
